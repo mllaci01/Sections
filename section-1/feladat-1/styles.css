@@ -1,0 +1,68 @@
+/*#body {
+  background-color : black;
+};*/
+
+.namecard {
+    width: 620px;
+    height: 220px;
+    border: 3px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: -320px;
+    
+}
+
+.header {
+    background-color: green;
+    height: 35px;
+}
+
+.header-ctr {
+    display: table;
+    margin-left: 40%;
+    text-align: center;
+    background-color: white;
+    border-collapse: 5px;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+        
+}
+
+.form-control {
+    border-radius: 20px;
+    border-color: green;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -200px;
+    width: 400px;
+    height: 40px;
+    padding-left: 15px;
+    font-size: 24px;
+    color: green;
+}
+
+::placeholder {
+    color: green;
+}
+
+.name-group {
+    position: relative;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: green;
+}
+
+.name {
+    height: 40px;
+    margin-left: 120px;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
