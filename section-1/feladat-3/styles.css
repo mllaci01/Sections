@@ -1,0 +1,60 @@
+img{
+    width: 27mm;
+    height: auto;
+    
+}
+
+table{
+    width: 1400px;
+    height: 100px;
+    border: 3px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -700px;
+    background-color: white;
+}
+
+.words{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    color: black;
+}
+
+.date{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+i{
+    position: relative;
+    text-align: center;
+    /*margin-top: 10px;*/
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.fa-bars, .fa-trash, .fa-pen{
+    background-color: green;
+}
+
+.fa-table{
+    background-color: orange;
+}
