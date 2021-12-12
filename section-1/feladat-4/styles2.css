@@ -1,0 +1,43 @@
+img{
+    width: 120px;
+    height: 90px;
+    border: 6px solid green;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -90px;
+    margin-left: -65px;
+    background-color: white;
+}
+
+.profil1-group{
+    width: 300px;
+    height: 100px;
+    /*border: 3px solid black;*/
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -150px;
+    background-color: green;
+}
+
+.name{
+    margin-top: 60px;
+    margin-left: 100px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.name2{
+    margin-top: -23px;
+    margin-left: 117px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: light;
+}
