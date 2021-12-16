@@ -1,43 +1,79 @@
-img{
-    width: 120px;
-    height: 90px;
-    border: 6px solid green;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -90px;
-    margin-left: -65px;
-    background-color: white;
+.namecard{
+    position: relative;
+width: 300px;
+height: 180px;
+top: 172px;
+left: 600px;
 }
 
-.profil1-group{
-    width: 300px;
-    height: 100px;
-    /*border: 3px solid black;*/
-    border-radius: 20px;
+.frame{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -150px;
-    background-color: green;
-}
+left: 0%;
+right: 0%;
+top: 30.99%;
+bottom: -0.44%;
 
-.name{
-    margin-top: 60px;
-    margin-left: 100px;
-    color: white;
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+/* SötétZöld */
+
+background: #006633;
+border-radius: 36px;
 }
 
 .name2{
-    margin-top: -23px;
-    margin-left: 117px;
-    color: white;
-    font-family: sans-serif;
-    font-size: 15px;
-    font-weight: light;
+    position: absolute;
+left: 35%;
+right: 0%;
+top: 85.56%;
+bottom: 2.75%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #ffffff;
+
+}
+
+.name1{
+    position: absolute;
+left: 20%;
+right: 0%;
+top: 73.89%;
+bottom: 14.42%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 20px;
+/* or 100% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.picture{
+    position: absolute;
+left: 28.58%;
+right: 28.75%;
+top: 0%;
+bottom: 28.89%;
+
+background: url("IMG_20210721_200009.jpg");
+/* SötétZöld */
+
+border: 4px solid #006633;
+box-sizing: border-box;
+border-radius: 100px;
 }
