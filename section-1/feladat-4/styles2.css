@@ -1,79 +1,76 @@
-.namecard{
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  html {
+    background: #DBE5EA;
+    height: 100%;
+  }
+  
+  body {
+    align-items: center;
+    display: flex;
+    font: 1.125em/1.5625 Roboto;
+    justify-content: center;
+    margin: 0;
+    padding: 1em;
+    min-height: 100%;
+  }
+
+  .namecard{
+    width: 300px;
+    height: 180px;
+  }
+
+  img{
+    width: 128px;
+    height: 128px;
     position: relative;
-width: 300px;
-height: 180px;
-top: 172px;
-left: 600px;
-}
+    left: 90px;
+    top: -60px;
+    border: 4px solid #006633;
+    box-sizing: border-box;
+    border-radius: 100px;
+  }  
 
-.frame{
-    position: absolute;
-left: 0%;
-right: 0%;
-top: 30.99%;
-bottom: -0.44%;
+  .frame{
+    width: 300px;
+    height: 125px;  
+    background: #006633;
+    border-radius: 36px;
+  }
 
-/* SötétZöld */
+  .name1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    /* or 100% */
+    
+    display: relative;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: -60px;
+    color: #FFFFFF;
+    
+  }
 
-background: #006633;
-border-radius: 36px;
-}
-
-.name2{
-    position: absolute;
-left: 35%;
-right: 0%;
-top: 85.56%;
-bottom: 2.75%;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 20px;
-/* or 125% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #ffffff;
-
-}
-
-.name1{
-    position: absolute;
-left: 20%;
-right: 0%;
-top: 73.89%;
-bottom: 14.42%;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 20px;
-/* or 100% */
-
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #FFFFFF;
-
-}
-
-.picture{
-    position: absolute;
-left: 28.58%;
-right: 28.75%;
-top: 0%;
-bottom: 28.89%;
-
-background: url("IMG_20210721_200009.jpg");
-/* SötétZöld */
-
-border: 4px solid #006633;
-box-sizing: border-box;
-border-radius: 100px;
-}
+  .name2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    
+    display: relative;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: -60px;
+    color: #FFFFFF;
+    
+  }
