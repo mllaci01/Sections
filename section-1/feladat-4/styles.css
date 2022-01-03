@@ -1,54 +1,47 @@
-.namecard{
-    position: relative;
-width: 300px;
-height: 300px;
-top: 172px;
-left: 600px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  html {
+    background: #DBE5EA;
+    height: 100%;
+  }
+  
+  body {
+    align-items: center;
+    display: flex;
+    font: 1.125em/1.5625 Roboto;
+    justify-content: center;
+    margin: 0;
+    padding: 1em;
+    min-height: 100%;
+  }
 
-}
+  .namecard{
+    background-color: #006633;
+    width: 300px;
+    height: 300px;
+    padding: 22px 33px 43px 32px;
+    border-radius: 44px;      
+  }
 
-.name{
-    position: absolute;
-left: 25%;
-right: 0%;
-top: 85.25%;
-bottom: 2.01%;
+  img{
+    width: 235px;
+    height: 235px;
+    border-radius: 44px 44px 0px 0px;
+      
+  }
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 20px;
-/* or 77% */
+  .name{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
 
-display: flex;
-align-items: center;
-text-align: center;
-
-color: #ffffff;
-
-}
-
-.picture{
-    position: absolute;
-left: 10.67%;
-right: 11%;
-top: 7.33%;
-bottom: 14.33%;
-
-background-image: url("IMG_20210721_200009.jpg");
-border-radius: 44px 44px 0px 0px;
-}
-
-.frame{
-    position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-/* SötétZöld */
-
-background: #006633;
-border-radius: 44px;
-}
+  }
