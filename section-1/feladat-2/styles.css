@@ -1,186 +1,177 @@
-.errorcard{
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  html {
+    background: #DBE5EA;
+    height: 100%;
+  }
+  
+  body {
+    align-items: center;
+    display: flex;
+    font: 1.125em/1.5625 Roboto;
+    justify-content: center;
+    margin: 0;
+    padding: 1em;
+    min-height: 100%;
+  }
+
+  .errorcard{
     position: relative;
     width: 500px;
     height: 150px;
-    top: 247px;
-    left: 606px;
+    background-color: #006633;
+    border-radius: 16px;
+  }
 
+  .name1{
     position: absolute;
-left: 35%;
-right: 0%;
-top: 35%;
-bottom: 0%;
-
-/* SötétZöld */
-
-background: #006633;
-border-radius: 16px;
-}
-
-.name1{
-    /*position: relative;
+    left: 0%;
+    right: 0%;
+    top: 8%;
+    bottom: 50.06%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 151.19%;
+    /* or 30px */
+    
     text-align: center;
-    margin-top: 20px;
-    font-family: sans-serif;
+    
+    /* Fehér */
+    
+    color: #FFFFFF;
+    
+  }
+
+  .word1{
     font-weight: bold;
-    font-size: 18px;
-    color: white;*/
-    position: absolute;
-left: 0%;
-right: 0%;
-top: 8%;
-bottom: 50.06%;
+  }
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 151.19%;
-/* or 30px */
+  .word2{
+      font-weight: 400;
+  }
 
-text-align: center;
-
-/* Fehér */
-
-color: #FFFFFF;
-
-}
-
-.button-group{
-    position: absolute;
-left: 27.6%;
-right: 27.4%;
-top: 58.67%;
-bottom: 14.67%;
+.buttongroup{
+    position: relative;
+    left: 27.6%;
+    right: 27.4%;
+    top: 58.67%;
+    bottom: 14.67%;
+    
 }
 
 .button1{
-    display: flex;
-flex-direction: row;
-align-items: center;
-padding: 8px 32px;
-
-position: absolute;
-left: 27.6%;
-right: 49.6%;
-top: 58.67%;
-bottom: 14.67%;
-
-/* Színes/Szürke */
-
-background: #BFBFBF;
-/* MAIN / LIGHT / 01 */
-
-border: 1px solid #F2F2F2;
-box-sizing: border-box;
-border-radius: 8px;
-
-position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 0%;
-
-/* SötétZöld */
-
-background: #006633;
-border-radius: 16px;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    display: inline-block;
+    font: inherit;
+    height: auto;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
 }
 
-.btnname{
-    position: static;
-left: 32px;
-right: 32px;
-top: 8px;
-bottom: 8px;
-
-/* Main / BUTTON Medium */
-
-font-family: Work Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 14px;
-line-height: 24px;
-/* identical to box height, or 171% */
-
-display: flex;
-align-items: center;
-text-align: center;
-text-transform: uppercase;
-font-feature-settings: 'pnum' on, 'lnum' on;
-
-/* MAIN / LIGHT / 01 */
-
-color: #F2F2F2;
-
-
-/* Inside Auto Layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 0px;
-}
-
-.button1:hover {
-    background-color: #4CAF50;
-    color: white;
+  .button1:focus {
+    outline: none;
   }
-
-.button2{
+  
+  .button1::-moz-focus-inner {
+    border: 0;
+  }
+  
+  .btnname {
+    align-items: center;
+    background: #BFBFBF;
+    border: 1px solid #F2F2F2;
+    border-radius: 8px;
+    color: #fff;
     display: flex;
-flex-direction: row;
-align-items: center;
-padding: 8px 32px;
-
-position: absolute;
-left: 55%;
-right: 27.4%;
-top: 58.67%;
-bottom: 14.67%;
-
-/* Színes/Piros */
-
-background: #EF3A43;
-/* Fehér */
-
-border: 1px solid #FFFFFF;
-box-sizing: border-box;
-border-radius: 8px;
-
-}
-
-.fas, .fa{
-    position: static;
-width: 24px;
-height: 24px;
-left: 32px;
-top: 8px;
-
-
-/* Inside Auto Layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 0px;
-
-}
-
-.trash-alt{
+    flex-direction: row;
+    font-family: Work Sans;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 40px;
+    min-width: 2.5em;
+    padding: 8px 32px;
+    position: relative;
+    transition: 0.2s ease;
+    width: 100%;
+  }
+  
+  .button1:focus .btnname {
+    border-color: #fff;
+    box-shadow: 0 0 0 2px #456BD9;
+  }
+  
+  .button1:hover .btnname {
+    filter: brightness(1.1);
+  }
+  
+  .button1:active .btnname {
+    filter: brightness(0.9);
+  }
+  
+  .button2{
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    color: inherit;
+    display: inline-block;
+    font: inherit;
+    height: auto;
+    line-height: 1;
+    margin: 0;
+    margin-left: 22.98px;
+    padding: 0;
     position: absolute;
-left: 20.83%;
-right: 20.83%;
-top: 12.5%;
-bottom: 12.5%;
-
-/* Fehér */
-
-background: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
 }
 
-.button2:hover {
-    background-color: #4CAF50;
-    color: white;
+   .button2:focus {
+    outline: none;
+  }
+  
+  .button2::-moz-focus-inner {
+    border: 0;
   }
 
+  .delete {
+    align-items: center;
+    background: #EF3A43;
+    border: 1px solid #F2F2F2;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    min-width: 2.5em;
+    padding: 8px 32px;
+    position: relative;
+    transition: 0.2s ease;
+    width: 100%;
+  }
+  
+  .button2:focus .delete {
+    border-color: #fff;
+    box-shadow: 0 0 0 2px #456BD9;
+  }
+  
+  .button2:hover .delete {
+    filter: brightness(1.1);
+  }
+  
+  .button2:active .delete {
+    filter: brightness(0.9);
+  }

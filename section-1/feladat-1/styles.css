@@ -1,209 +1,308 @@
-.namecard{
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  html {
+    background: #DBE5EA;
+    height: 100%;
+  }
+  
+  body {
+    align-items: center;
+    display: flex;
+    font: 1.125em/1.5625 Roboto;
+    justify-content: center;
+    margin: 0;
+    padding: 1em;
+    min-height: 100%;
+  }
+
+  .namecard{
     position: relative;
-width: 620px;
-height: 220px;
-top: 200px;
-left: 400px;
-background: #FFFFFF;
-}
+    width: 620px;
+    height: 220px;
+    
+    background: #FFFFFF;
+    
+  }
 
-.headerctr{
+  .header{
     position: absolute;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 85%;
+    width: 620px;
+    height: 33.06px;
+    left: 0px;
+    top: 0px;
+  }
 
-/* SötétZöld */
-
-background: #006633;
-
-}
-
-.fa.user.alt{
-    position: absolute;
-left: 16.67%;
-right: 16.67%;
-top: 16.67%;
-bottom: 16.67%;
-
-/* Színes/Fekete */
-
-background: #000000;
-}
-
-
-.header{
+  .vector{
     position: absolute;
     width: 24px;
     height: 24px;
     left: 270px;
     top: 6px;
+  }
+
+  .name{
+    position: absolute;
+    left: 48.53%;
+    right: 43.81%;
+    top: 1.88%;
+    bottom: 84.98%;
     
-}
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    /* Színes/Fekete */
+    
+    color: #000000;
+    
+  }
 
-.headername{
+  .whiteBackground{
     position: absolute;
-left: 48.53%;
-right: 43.81%;
-top: 1.88%;
-bottom: 84.98%;
+    width: 161.56px;
+    height: 33.04px;
+    left: 394.82px;
+    top: 0.02px;
+    
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+  }
 
-font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-text-transform: uppercase;
-
-/* Színes/Fekete */
-
-color: #000000;
-
-}
-
-.whitebackground{
+  .group10008{
     position: absolute;
-width: 161.56px;
-height: 33.04px;
-left: 394.82px;
-top: 0.02px;
+    left: 63.68%;
+    right: 10.26%;
+    top: 15.03%;
+    bottom: 69.95%;
+    
+    transform: rotate(180deg);
+  }
 
-transform: matrix(-1, 0, 0, 1, 0, 0);
-}
-
-.name1{
+  .group10001{
     position: absolute;
-width: 91px;
-height: 23px;
-left: 97px;
-bottom: 153px;
+    left: 52.12%;
+    right: 33.38%;
+    top: 15.03%;
+    bottom: 69.95%;
+    
+    transform: rotate(180deg);
+  }
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 23px;
-display: flex;
-align-items: center;
-font-feature-settings: 'pnum' on, 'lnum' on;
-
-/* SötétZöld */
-
-color: #006633;
-}
-
-.form-control1{
+  .group2530{
     position: absolute;
-height: 45px;
-left: 82px;
-right: 88px;
-top: calc(50% - 45px/2 - 20.5px);
+    left: 52.12%;
+    right: 33.38%;
+    top: 15.03%;
+    bottom: 69.95%;
+    
+    transform: rotate(180deg);
+  }
 
-/* Fehér */
-
-background: #FFFFFF;
-/* SötétZöld */
-
-border: 1px solid #006633;
-box-sizing: border-box;
-border-radius: 44px;
-
-}
-
-input[value="Próba Péter"] {
+  .polygon231{
     position: absolute;
-width: 126px;
-height: 28px;
-left: 97px;
-top: calc(50% - 28px/2 - 21px);
+    left: 43.42%;
+    right: 50.78%;
+    top: 0.01%;
+    bottom: 84.97%;
+    
+    /* Fehér */
+    
+    background: #FFFFFF;
+  }
 
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-font-feature-settings: 'pnum' on, 'lnum' on;
-
-/* Zöld */
-
-color: #55AE3A;
-}
-
-.form-control2{
+  .polygon225{
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);  
     position: absolute;
-height: 45px;
-left: 82px;
-right: 88px;
-top: calc(50% - 45px/2 + 69.5px);
+    left: 37.62%;
+    right: 56.58%;
+    top: 0.01%;
+    bottom: 84.97%;
+    
+    /* Fehér */
+    
+    background: #FFFFFF;
+  }
 
-/* Fehér */
-
-background: #FFFFFF;
-/* SötétZöld */
-
-border: 1px solid #006633;
-box-sizing: border-box;
-border-radius: 44px;
-}
-
-.name2{
+  .polygon229{
     position: absolute;
-width: 77px;
-height: 23px;
-left: 97px;
-bottom: 63px;
+    left: 52.12%;
+    right: 42.08%;
+    top: 15.03%;
+    bottom: 69.96%;
+    
+    /* Fehér */
+    
+    background: #FFFFFF;
+    transform: rotate(180deg);
+  }
 
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 23px;
-display: flex;
-align-items: center;
-font-feature-settings: 'pnum' on, 'lnum' on;
-
-/* SötétZöld */
-
-color: #006633;
-
-}
-
-.form-control2{
+  .polygon223{
     position: absolute;
-height: 45px;
-left: 82px;
-right: 88px;
-top: calc(50% - 45px/2 + 69.5px);
+    left: 52.12%;
+    right: 42.08%;
+    top: 15.03%;
+    bottom: 69.96%;
+    
+    /* Fehér */
+    
+    background: #FFFFFF;
+    transform: rotate(180deg);
+  }
 
-/* Fehér */
-
-background: #FFFFFF;
-/* SötétZöld */
-
-border: 1px solid #006633;
-box-sizing: border-box;
-border-radius: 44px;
-}
-
-input[value="Peti"] {
+  .group2531{
     position: absolute;
-width: 42px;
-height: 28px;
-left: 97px;
-top: calc(50% - 28px/2 + 69px);
+    left: 63.68%;
+    right: 21.82%;
+    top: 15.03%;
+    bottom: 69.95%;
+    
+    transform: rotate(180deg);
+  }
 
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 28px;
-font-feature-settings: 'pnum' on, 'lnum' on;
+  /*.group2530{
+    position: absolute;
+    left: 63.68%;
+    right: 21.82%;
+    top: 15.03%;
+    bottom: 69.95%;
+    
+    transform: rotate(180deg);
+  }*/
 
-/* Zöld */
+  .greenbackground{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 15.02%;
+    bottom: 69.95%;
+    
+    /* SötétZöld */
+    
+    background: #006633;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+  }
 
-color: #55AE3A;
+  .alsonev{
+    position: absolute;
+    width: 77px;
+    height: 23px;
+    left: 97px;
+    bottom: 63px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    /* SötétZöld */
+    
+    color: #006633;
+    
+  }
 
-}
+  .alsobevitel{
+    position: absolute;
+    width: 42px;
+    height: 28px;
+    left: 97px;
+    top: calc(50% - 28px/2 + 69px);
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    /* Zöld */
+    
+    color: #55AE3A;
+    
+  }
+
+  .alsoinput{
+    position: absolute;
+    height: 45px;
+    left: 82px;
+    right: 88px;
+    top: calc(50% - 45px/2 + 69.5px);
+    
+    /* Fehér */
+    
+    background: #FFFFFF;
+    /* SötétZöld */
+    
+    border: 1px solid #006633;
+    box-sizing: border-box;
+    border-radius: 44px;
+  }
+
+  .felsonev{
+    position: absolute;
+    width: 91px;
+    height: 23px;
+    left: 97px;
+    bottom: 153px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    /* SötétZöld */
+    
+    color: #006633;
+    
+  }
+
+  .felsobevitel{
+    position: absolute;
+    width: 126px;
+    height: 28px;
+    left: 97px;
+    top: calc(50% - 28px/2 - 21px);
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    /* Zöld */
+    
+    color: #55AE3A;
+    
+  }
+
+  .felsoinput{
+    position: absolute;
+    height: 45px;
+    left: 82px;
+    right: 88px;
+    top: calc(50% - 45px/2 - 20.5px);
+    
+    /* Fehér */
+    
+    background: #FFFFFF;
+    /* SötétZöld */
+    
+    border: 1px solid #006633;
+    box-sizing: border-box;
+    border-radius: 44px;
+  }
