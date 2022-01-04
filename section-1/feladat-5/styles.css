@@ -1,92 +1,69 @@
-table{
-    position: relative;
-width: 460px;
-height: 60px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  html {
+    background: #DBE5EA;
+    height: 100%;
+  }
+  
+  body {
+    align-items: center;
+    display: flex;
+    font: 1.125em/1.5625 Roboto;
+    justify-content: center;
+    margin: 0;
+    padding: 1em;
+    min-height: 100%;
+  }
 
+  .item1{ grid-area: icon1;}
+  .item2{ grid-area: icon2;}
+  .item3{ grid-area: icon3;}
+  .item4{ grid-area: icon4;}
+  .item5{ grid-area: icon5;}
+  .item6{ grid-area: icon6;}
+  
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+     'icon1 icon2 icon3 icon4 icon5 icon6';
+    grid-gap: 20px;
+    background-color: #363636;
+    width: 402px;
+    height: 60px;
+    align-items: center;
 }
 
-tr{
-    position: absolute;
-left: 6.52%;
-right: 6.09%;
-top: 0%;
-bottom: 0%;
-
-/* SötétSzürke */
-
-background: #363636;
+.item1 > i{
+    padding: 14px;
 }
 
-.icon1{
-    position: absolute;
-left: 0%;
-right: 86.96%;
-top: 0%;
-bottom: 0%;
-
-/* Zöld */
-
-background: #55AE3A;
+.item6 > i{
+    padding: -10px;
+    margin-left: -10px;
 }
 
-.icon2{
-    position: absolute;
-left: 17.39%;
-right: 69.57%;
-top: 20%;
-bottom: 0%;
+  .item1{
+    color: #fff;
+    background: #55AE3A;
+    border-radius: 42px;
+    width: 60px;
+    height: 60px;
+    margin: -31px;
+  }
+
+  .item2, .item3, .item4, .item5, .item6{
+    color: #fff;
+    background-color: #363636;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    padding: 14px;
+    text-align: center;
 }
 
-/*i.fas{
-    position: absolute;
-left: 17.39%;
-right: 69.57%;
-top: 0%;
-bottom: 0%;
-
-/* SötétSzürke
-
-background: #363636;
-}*/
-
-.fa-inverse.fa-2x.fa-info{
-position: absolute;
-left: 12.5%;
-right: 12.5%;
-top: 4.17%;
-bottom: 12.5%;
-}
-
-
-.icon3{
-    position: absolute;
-left: 34.78%;
-right: 52.17%;
-top: 20%;
-bottom: 0%;
-}
-
-.icon4{
-    position: absolute;
-left: 52.17%;
-right: 34.78%;
-top: 20%;
-bottom: 0%;
-}
-
-.icon5{
-    position: absolute;
-left: 69.57%;
-right: 17.39%;
-top: 20%;
-bottom: 0%;
-}
-
-.icon6{
-    position: absolute;
-left: 86.96%;
-right: 0%;
-top: 20%;
-bottom: 0%;
-
+.item2, .item3, .item4, .item5 > i {
+    margin-left: 9px;   
 }
