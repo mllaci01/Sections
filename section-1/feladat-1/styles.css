@@ -3,12 +3,12 @@
     margin: 0;
   }
   
-  html {
+html {
     background: #DBE5EA;
     height: 100%;
   }
   
-  body {
+body {
     align-items: center;
     display: flex;
     font: 1.125em/1.5625 Roboto;
@@ -18,50 +18,51 @@
     min-height: 100%;
   }
 
-  .namecard{
+.namecard {
     position: relative;
     width: 620px;
     height: 220px;
     background: #FFFFFF;
-    
   }
 
-  .header{
+.header {
     width: 620px;
     height: 33.06px;
     background: #006633;
   }
 
-  .accountIcon{
-    display: inline;
-    background: #fff;
+.flex-container {
+    display: flex;
+    background-color: #006633;
+    width: 620px;
+    height: 33.05px;
   }
 
-  .vector{
-    position: absolute;
-    justify-content: center;
-    width: 24px;
-    height: 24px;
-    left: 270px;
-    top: 6px;
+.flex-container > div {
+    background-color: #fff;
+    width: 161.56px;
+    text-align: center;
+    margin-left: 35%;
+    transform: skew(-45deg);
   }
 
-  .name{
-    position: absolute;
-    left: 48.53%;
-    right: 43.81%;
-    top: 1.88%;
-    bottom: 84.98%;
+.flex-container > div > i {
+    transform: skewX(45deg);
+    display: inline-flex;
+  }
+
+p {
+    display: inline-flex;
+    transform: skewX(45deg);
     font-family: Roboto;
-    font-style: normal;
+    line-height: 28px;
     font-weight: 900;
     font-size: 24px;
-    line-height: 28px;
     text-transform: uppercase;
-    color: #000000;
+    font-style: normal;
   }
 
-  .alsonev{
+.alsonev {
     position: absolute;
     width: 77px;
     height: 23px;
@@ -76,10 +77,9 @@
     align-items: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #006633;
-    
   }
 
-  .alsobevitel{
+.alsobevitel {
     position: absolute;
     width: 42px;
     height: 28px;
@@ -92,10 +92,9 @@
     line-height: 28px;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #55AE3A;
-    
   }
 
-  .alsoinput{
+.alsoinput {
     position: absolute;
     height: 45px;
     left: 82px;
@@ -107,7 +106,7 @@
     border-radius: 44px;
   }
 
-  .felsonev{
+.felsonev {
     position: absolute;
     width: 91px;
     height: 23px;
@@ -122,10 +121,9 @@
     align-items: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #006633;
-    
   }
 
-  .felsobevitel{
+.felsobevitel {
     position: absolute;
     width: 126px;
     height: 28px;
@@ -139,10 +137,9 @@
     line-height: 28px;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #55AE3A;
-    
   }
 
-  .felsoinput{
+.felsoinput {
     position: absolute;
     height: 45px;
     left: 82px;
