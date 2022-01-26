@@ -115,10 +115,12 @@
   
   .button1:hover .btnname {
     filter: brightness(1.1);
+    transform: scale(1.2, 1.2);
   }
   
   .button1:active .btnname {
     filter: brightness(0.9);
+    
   }
   
   .button2{
@@ -170,6 +172,7 @@
   
   .button2:hover .delete {
     filter: brightness(1.1);
+    transform: scale(1.2, 1.2);
   }
   
   .button2:active .delete {
