@@ -23,14 +23,13 @@ body {
   width: 620px;
   height: 220px;
   background: #ffffff;
-  }
+}
 
 .header{
   display: flex;
   background: #006633;
   justify-content: center;
   height: 35px;
-  
 }
 
 .flex-container{
@@ -55,8 +54,34 @@ i {
 }
 
 .intake {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #006633;
+  margin-top: 11px;
+}
+
+.nev{
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #006633;
+}
+
+input {
   width: 450px;
   height: 45px;
+  color: #006633;
+  border: 1px solid #006633;
+  box-sizing: border-box;
+  border-radius: 44px;
 }
+
+.bevitel {
+  margin-bottom: 22px;
+}
+
+
 
 
