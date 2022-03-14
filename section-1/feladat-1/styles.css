@@ -12,7 +12,7 @@ html {
 body {
     align-items: center;
     display: flex;
-    font-style: 'Roboto';
+    font-family: 'Roboto';
     justify-content: center;
     margin: 0;
     padding: 1em;
@@ -57,31 +57,38 @@ i {
   display: grid;
   justify-content: center;
   align-items: center;
-  border: 1px solid #006633;
-  margin-top: 11px;
 }
 
-.nev{
+.input-container .input-label {
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
   line-height: 24px;
   color: #006633;
+  margin-left: 16px;
+  margin-top: 11px;
 }
 
-input {
+.namecard .input-container label {
+  display: block;
+}
+
+.namecard .input-container input {
   width: 450px;
   height: 45px;
   color: #006633;
   border: 1px solid #006633;
   box-sizing: border-box;
   border-radius: 44px;
+  padding-left: 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #55AE3A;
 }
 
-.bevitel {
-  margin-bottom: 22px;
+.namecard .input-container .nick {
+  margin-top: 22px;
 }
-
-
-
-
