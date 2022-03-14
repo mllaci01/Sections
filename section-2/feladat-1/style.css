@@ -11,7 +11,7 @@ html {
 body {
     align-items: center;
     display: flex;
-    font: 1.125em/1.5625 Roboto;
+    font-family: 'Roboto';
     justify-content: center;
     margin: 0;
     padding: 1em;
