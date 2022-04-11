@@ -1,0 +1,39 @@
+.profilcard {
+    box-sizing: border-box;
+    
+    padding-top: 2px;
+    width: 300px;
+    height: 360px;
+    background-color: #55ae3a;
+    border-radius: 36px;
+    color: #fff;
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    
+    
+}
+
+.profilcard img {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+}
+
+section > span {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 14px;
+    margin-bottom: 12px;
+    width: 100%;
+    text-align: justify;
+}
+
+footer > i {
+    background-color: #006633;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+}

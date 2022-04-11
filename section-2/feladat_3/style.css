@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #006633;
+    height: 56px;
+    width: 100%;
+}
+
+.navbar tr {
+    display: flex;
+    /*justify-content: center;*/
+}
+
+.navbar tr th {
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+th {
+    width: 80%;
+}
+

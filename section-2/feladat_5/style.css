@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  html {
+    background: #DBE5EA;
+    height: 100%;
+  }
+  
+  body {
+    align-items: center;
+    display: flex;
+    font-family: 'Roboto';
+    justify-content: center;
+    margin: 0;
+    padding: 1em;
+    min-height: 100%;
+  }
+
+  .item1{ grid-area: icon1;}
+  .item2{ grid-area: icon2;}
+  .item3{ grid-area: icon3;}
+  .item4{ grid-area: icon4;}
+  .item5{ grid-area: icon5;}
+  .item6{ grid-area: icon6;}
+  
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+     'icon1 icon2 icon3 icon4 icon5 icon6';
+    grid-gap: 20px;
+    background-color: #363636;
+    width: 402px;
+    height: 60px;
+    align-items: center;
+}
+
+.item1 > i{
+    padding: 14px;
+}
+
+.item6 > i{
+    padding: -10px;
+    margin-left: -10px;
+}
+
+  .item1{
+    color: #fff;
+    background: #55AE3A;
+    border-radius: 42px;
+    width: 60px;
+    height: 60px;
+    margin: -31px;
+  }
+
+  .item2, .item3, .item4, .item5, .item6{
+    color: #fff;
+    background-color: #363636;
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+    padding: 14px;
+    text-align: center;
+}
+
+.item2, .item3, .item4, .item5 > i {
+    margin-left: 9px;   
+}
