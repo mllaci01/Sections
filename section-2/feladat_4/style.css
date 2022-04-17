@@ -1,39 +1,77 @@
-.profilcard {
-    box-sizing: border-box;
-    
-    padding-top: 2px;
-    width: 300px;
-    height: 360px;
-    background-color: #55ae3a;
-    border-radius: 36px;
-    color: #fff;
-    text-align: center;
-
+* {
+    justify-content: center;
+    color: #ffffff;
     font-family: 'Roboto';
-    font-weight: 400;
-    
-    
+    padding: 0;
+    margin: 0;
 }
 
-.profilcard img {
+.profilcard {
+    width: 300px;
+    height: 360px;
+    background-color: #55AE3A;
+    border-radius: 36px;
+    box-sizing: border-box;
+    
+    }
+
+img {
     width: 128px;
     height: 128px;
     border-radius: 50%;
+    padding: 5px;
 }
 
-section > span {
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 14px;
-    margin-bottom: 12px;
-    width: 100%;
+div {
+    display: flex;
+    
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.position {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position a {
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.word{
+    padding: 14px 25px 12px;
     text-align: justify;
+    font-size: 14px;
+    font-weight: 400;
 }
 
-footer > i {
+.icon {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
     background-color: #006633;
+    border-radius: 50px;
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    
+    text-align: center;
+    margin: 4px;
+    line-height: 30px;
+}
+
+a:hover {
+    background-color: #55AE3A;
 }
