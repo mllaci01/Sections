@@ -1,69 +1,42 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-  }
-  
-  html {
-    background: #DBE5EA;
-    height: 100%;
-  }
-  
-  body {
-    align-items: center;
-    display: flex;
-    font-family: 'Roboto';
-    justify-content: center;
-    margin: 0;
-    padding: 1em;
-    min-height: 100%;
-  }
-
-  .item1{ grid-area: icon1;}
-  .item2{ grid-area: icon2;}
-  .item3{ grid-area: icon3;}
-  .item4{ grid-area: icon4;}
-  .item5{ grid-area: icon5;}
-  .item6{ grid-area: icon6;}
-  
-.grid-container{
-    display: grid;
-    grid-template-areas: 
-     'icon1 icon2 icon3 icon4 icon5 icon6';
-    grid-gap: 20px;
-    background-color: #363636;
-    width: 402px;
-    height: 60px;
-    align-items: center;
+.flex-container, section {
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
-.item1 > i{
-    padding: 14px;
+section {
+  background-color: #363636;
+  border-top-left-radius: 45px;
+  border-bottom-left-radius: 45px;
+  border-top-right-radius: 45px;
+  border-bottom-right-radius: 45px;
 }
 
-.item6 > i{
-    padding: -10px;
-    margin-left: -10px;
+.flex-container div {
+  border-radius: 50%;
+  padding: 30px 30px;
 }
 
-  .item1{
-    color: #fff;
-    background: #55AE3A;
-    border-radius: 42px;
-    width: 60px;
-    height: 60px;
-    margin: -31px;
-  }
+.flex-container div:hover:nth-child(1) {
+  background-color: #55AE3A;
+}  
 
-  .item2, .item3, .item4, .item5, .item6{
-    color: #fff;
-    background-color: #363636;
-    border-radius: 30px;
-    width: 60px;
-    height: 60px;
-    padding: 14px;
-    text-align: center;
+.flex-container div:hover:nth-child(2) {
+  background-color: #FFC700;
+}  
+
+.flex-container div:hover:nth-child(3) {
+  background-color: #DF7E24;
 }
 
-.item2, .item3, .item4, .item5 > i {
-    margin-left: 9px;   
+.flex-container div:hover:nth-child(4) {
+  background-color: #9400D3;
 }
+
+.flex-container div:hover:nth-child(5) {
+  background-color: #2D8CD8;
+}  
+
+.flex-container div:hover:nth-child(6) {
+  background-color: #E10000;
+}  
