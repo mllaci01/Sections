@@ -1,3 +1,12 @@
+:root {
+  --main-background-color: #55AE3A;
+  --second-background-color: #FFC700;
+  --third-background-color: #DF7E24;
+  --fourth-background-color: #9400D3;
+  --fifth-background-color: #2D8CD8;
+  --sixth-background-color: #E10000;
+}
+
 .flex-container, section {
   align-items: center;
   justify-content: center;
@@ -18,25 +27,31 @@ section {
 }
 
 .flex-container div:hover:nth-child(1) {
-  background-color: #55AE3A;
+  /*background-color: #55AE3A;*/
+  background-color: var(--main-background-color);
 }  
 
 .flex-container div:hover:nth-child(2) {
-  background-color: #FFC700;
+  /*background-color: #FFC700;*/
+  background-color: var(--second-background-color);
 }  
 
 .flex-container div:hover:nth-child(3) {
-  background-color: #DF7E24;
+  /*background-color: #DF7E24;*/
+  background-color: var(--third-background-color);
 }
 
 .flex-container div:hover:nth-child(4) {
-  background-color: #9400D3;
+  /*background-color: #9400D3;*/
+  background-color: var(--fourth-background-color);
 }
 
 .flex-container div:hover:nth-child(5) {
-  background-color: #2D8CD8;
+  /*background-color: #2D8CD8;*/
+  background-color: var(--fifth-background-color);
 }  
 
 .flex-container div:hover:nth-child(6) {
-  background-color: #E10000;
+  /*background-color: #E10000;*/
+  background-color: var(--sixth-background-color);
 }  
